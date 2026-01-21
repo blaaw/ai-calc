@@ -1,50 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>AI CALCULATOR</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header>
             <nav>
                 <div id="logo">
-                    <img src="blue-ai-logo.png" alt="ai-calc-logo" />
+                    <a href="index.html">
+                        <img src="blue-ai-logo.png" alt="ai-calc-logo" />
+                    </a>
                 </div>
                 <div id="links">
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
-                    <a href="#">link</a>
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Productos</a>
+                    <a href="#">Precios</a>
+                    <a href="#">Blog</a>
                 </div>
             </nav>
         </header>
         <main>
-            <h1>Lorem, ipsum dolor.</h1>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam.
-            </p>
-            <input type="text" id="show-num-bar" />
+            <h1>AI CALC: <small>Tu Calculadora Inteligente</small></h1>
+            <p>Simplicidad, velocidad y resultados al instante.</p>
+            <div id="calc-bar"></div>
             <section id="numbers">
                 <button class="number" id="num-1">1</button>
                 <button class="number" id="num-2">2</button>
                 <button class="number" id="num-3">3</button>
+                <button class="operand" id="suma">+</button>
+
                 <button class="number" id="num-4">4</button>
                 <button class="number" id="num-5">5</button>
                 <button class="number" id="num-6">6</button>
+                <button class="operand" id="resta">-</button>
+
                 <button class="number" id="num-7">7</button>
                 <button class="number" id="num-8">8</button>
                 <button class="number" id="num-9">9</button>
-                <button class="number" id="num-0">0</button>
-            </section>
-            <section id="operands">
-                <button class="operand" id="suma">+</button>
-                <button class="operand" id="resta">-</button>
                 <button class="operand" id="multiplicacion">*</button>
-                <button class="operand" id="division">/</button>
+
                 <button class="operand" id="borrar">⌫</button>
+                <button class="number" id="num-0">0</button>
+                <button class="operand" id="division">/</button>
                 <button class="operand" id="igual">=</button>
             </section>
+            <i>© Beckham I. Lawrence, 2026</i>
         </main>
     </body>
 </html>
