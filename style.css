@@ -16,6 +16,7 @@ body {
     background-color: var(--color3);
     color: var(--color2);
 }
+/*NAV*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -42,6 +43,7 @@ nav {
 #links a:hover {
     color: var(--color2);
 }
+/*MAIN + GENERAL ELEMENTS*/
 main {
     display: flex;
     flex-direction: column;
@@ -60,8 +62,10 @@ p {
 }
 i {
     color: var(--color1);
-    margin-top: 40px;
+    position: absolute;
+    bottom: 5%;
 }
+/*CALCULATOR ELEMENTS*/
 #calc-bar {
     min-height: 2rem;
     min-width: 170px;
